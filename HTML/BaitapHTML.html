@@ -1,21 +1,98 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Free Web tutorials">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <meta name="author" content="John Doe">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script>
-          function myFunction() {
-            document.getElementById("demo").innerHTML = "Ngo Linh Chi";
-          }
-          </script>
+        <title>Ngo Linh Chi's work</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
       </head>
 <body>
-    <p>Ngo Linh Chi - 2021050894</p>
-    <p>All meta information goes inside the head section.</p>
-    <p id="demo">Who's post?</p>
-    <button type="button" onclick="myFunction()">Click Here!!!</button>
+    <h2>Author</h2>
+<header>
+  <h2>Information</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a>HUMG</a></li>
+      <li><a>IT</a></li>
+      <li><a>DCCTKT65B</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <h1>Contact</h1>
+    <p>0333883957</p>
+    <p>Email: lhcii242@gmail.com</p>
+  </article>
+</section>
+
+<footer>
+  <p>Hehe</p>
+</footer>
 </body>
 </html>
