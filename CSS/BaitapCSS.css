@@ -1,14 +1,11 @@
-p.one {
-  border-style: solid;
-  border-color: red;
+h1 {
+  background-color: green;
 }
 
-p.two {
-  border-style: solid;
-  border-color: green;
+div {
+  background-color: lightblue;
 }
 
-p.three {
-  border-style: dotted;
-  border-color: blue;
+p {
+  background-color: yellow;
 }
