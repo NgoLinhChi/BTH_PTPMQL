@@ -3,16 +3,16 @@
 <head>
 <style>
 p {
-  color: red;
   text-align: center;
+  color: red;
 } 
 </style>
 </head>
 <body>
 
-<h1>Ngo Linh Chi</h1>
-<p>2021050894</p>
+<p>Ngo Linh Chi</p>
+<p id="para1">2021050894!</p>
+<p>Hi!</p>
 
 </body>
 </html>
-
