@@ -1,0 +1,48 @@
+@model FirstwebMVC.Models.Person
+
+@{
+    ViewData["Title"] = "Create";
+}
+<h1>Create</h1>
+
+
+        <div class="w3-card-4">
+            <div class="w3-container w3-green">
+                <h4>Person</h4>
+            </div>
+            <form asp-action="Create" class="w3-container">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="PersonID" class="control-label"></label>
+                    <input asp-for="PersonID" class="form-control w3-input">
+                    <span asp-validation-for="PersonID" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="FullName" class="control-label"></label>
+                    <input asp-for="FullName" class="form-control w3-input">
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label"></label>
+                    <input asp-for="Address" class="form-control w3-input">
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="PhoneNumber" class="control-label"></label>
+                    <input asp-for="PhoneNumber" class="form-control w3-input">
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <br>
+                    <input type="submit" value="Create" class="w3-button w3-green w3-hover-light-green w3-round">
+                </div>
+            </form>
+        </div>
+        <div>
+            <a asp-action="Index" class="w3-hover-text-green">Back to List</a>
+        </div>
+        @section Scripts {
+            @{
+                await Html.RenderPartialAsync("_ValidationScriptsPartial");
+            }
+        }

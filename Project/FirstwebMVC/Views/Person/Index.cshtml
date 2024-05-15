@@ -1,13 +1,46 @@
+@model IEnumerable<FirstwebMVC.Models.Person>
+ 
 @{
-    ViewData["Title"] = "Index";
+  ViewData["Title"] = "Index";
 }
-<h1>Du lieu tu Controller gui ve la: @ViewBag.infoPerson</h1>
-<form asp-action="Index">
-    <label>Nhap PersonID</label>
-    <input type = "text" name = "PersonID">
-    <label>Nhap Ho ten</label>
-    <input type = "text" name = "FullName">
-    <label>Nhap Dia chi</label>
-    <input type = "text" name = "Address">
-    <input type="submit" value="Gui du lieu">
-</form>
+<h1>Index</h1>
+ 
+<p>
+  <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+  <thread>
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.FullName)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Address)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.PhoneNumber)
+      </th>
+      <th></th>
+    </tr>
+  </thread>
+  <tbody>
+    @foreach (var item in Model)
+    {
+      <tr>
+        <td>
+          @Html.DisplayFor(modelItem => item.FullName)
+        </td>
+        <td>
+          @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+          @Html.DisplayFor(modelItem => item.PhoneNumber)
+        </td>
+        <td>
+          <a asp-action="Edit" asp-route-id="@item.PersonID">Edit</a>
+          <a asp-action="Delete" asp-route-id="@item.PersonID">Delete</a>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>

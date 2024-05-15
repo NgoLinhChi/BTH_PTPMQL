@@ -1,5 +1,43 @@
+@model IEnumerable<FirstwebMVC.Models.Employee>
+<style>
+  a:hover{
+    color: green;
+  }
+</style>
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"]= "Index";
 }
-<h2>Index Employee</h2>
-<p>2021050894</p>
+<h1>Employee</h1>
+ 
+<p>
+  <a asp-action="Create">Create New</a>
+</p>
+<table class="ws-table-all w3-bordered w3-striped w3-border test w3-hoverable w3-table" style="color:#000">
+  <thread>
+    <tr class="w3-green">
+      <th>
+        @Html.DisplayNameFor(model =>model.EmployeeID)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model =>model.Age)
+      </th>
+    </tr>
+  </thread>
+  <tbody>
+  @foreach (var item in Model){
+    <tr>
+ 
+      <td>
+        @Html.DisplayFor(modelItem => item.EmployeeID)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.Age)
+      </td>
+      <td>
+        <a asp-action="Edit" asp-route-id="@item.EmployeeID">Edit</a>
+        <a asp-action="Delete" asp-route-id="@item.EmployeeID">Delete</a>
+      </td>
+    </tr>
+  }
+  </tbody>
+</table>
