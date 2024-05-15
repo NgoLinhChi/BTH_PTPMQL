@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,6 +8,7 @@ namespace FirstwebMVC.Models
 {
     public class DaiLy 
     {
+        [Key]
         public string MaDaiLy { get; set; }
         public string TenDaiLy { get; set; }
         public string Diachi { get; set; }
