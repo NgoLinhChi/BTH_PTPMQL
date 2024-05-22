@@ -1,8 +1,9 @@
 using FirstwebMVC.Data;
 using FirstwebMVC.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
- 
+using X.PagedList;
 namespace FirstwebMVC.Controllers
 {
     public class EmployeeController : Controller
@@ -11,10 +12,20 @@ namespace FirstwebMVC.Controllers
         public EmployeeController(ApplicationDbContext context){
             _context = context;
         }
-        public async Task<IActionResult> Index(){
-            var model = await _context.Employee.ToListAsync();
-            return View(model);
-        }
+  public async Task<IActionResult> Index(int? page, int? PageSize)
+    {
+        ViewBag.PageSize = new List<SelectListItem>()
+        {
+            new SelectListItem() { Value = "3", Text = "3"},
+            new SelectListItem() { Value = "5", Text = "5"},
+            new SelectListItem() { Value = "7", Text = "7"},
+            new SelectListItem() { Value = "10", Text = "10"},
+        };
+        int pagesize = (PageSize ?? 3);
+        ViewBag.psize = pagesize;
+        var model = _context.Employee.ToList().ToPagedList(page ?? 1, pagesize);
+        return View(model);
+    }
         public IActionResult Create(){
             return View();
         }

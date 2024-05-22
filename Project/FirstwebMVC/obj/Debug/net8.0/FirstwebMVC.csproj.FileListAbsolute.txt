@@ -280,3 +280,6 @@ D:\BTH_PTPMQL\Project\FirstwebMVC\bin\Debug\net8.0\EPPlus.dll
 D:\BTH_PTPMQL\Project\FirstwebMVC\bin\Debug\net8.0\EPPlus.Interfaces.dll
 D:\BTH_PTPMQL\Project\FirstwebMVC\bin\Debug\net8.0\EPPlus.System.Drawing.dll
 D:\BTH_PTPMQL\Project\FirstwebMVC\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\BTH_PTPMQL\Project\FirstwebMVC\bin\Debug\net8.0\X.PagedList.dll
+D:\BTH_PTPMQL\Project\FirstwebMVC\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+D:\BTH_PTPMQL\Project\FirstwebMVC\obj\Debug\net8.0\FirstwebMVC.MvcApplicationPartsAssemblyInfo.cs

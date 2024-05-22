@@ -17,111 +17,111 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstwebMVC
 build_property.RootNamespace = FirstwebMVC
-build_property.ProjectDir = D:\BTH_PTPMQL\Project\FirstwebMVC\
+build_property.ProjectDir = d:\BTH_PTPMQL\Project\FirstwebMVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\BTH_PTPMQL\Project\FirstwebMVC
+build_property.MSBuildProjectDirectory = d:\BTH_PTPMQL\Project\FirstwebMVC
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/DaiLy/Create.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/DaiLy/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTHlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/DaiLy/Delete.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/DaiLy/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTHlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/DaiLy/Details.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/DaiLy/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTHlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/DaiLy/Edit.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/DaiLy/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTHlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/DaiLy/Index.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/DaiLy/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpTHlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/Employee/Create.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/Employee/Delete.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/Employee/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/Employee/Edit.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/Employee/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/Employee/Index.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/HeThongPhanPhoi/Create.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/HeThongPhanPhoi/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/HeThongPhanPhoi/Delete.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/HeThongPhanPhoi/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/HeThongPhanPhoi/Details.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/HeThongPhanPhoi/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/HeThongPhanPhoi/Edit.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/HeThongPhanPhoi/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/HeThongPhanPhoi/Index.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/HeThongPhanPhoi/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/Home/Index.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/Home/Privacy.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/Person/Create.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/Person/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/Person/Delete.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/Person/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/Person/Edit.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/Person/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/Person/Index.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/Person/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/Shared/Error.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/_ViewImports.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/_ViewStart.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/BTH_PTPMQL/Project/FirstwebMVC/Views/Shared/_Layout.cshtml]
+[d:/BTH_PTPMQL/Project/FirstwebMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-r6nnmap50n

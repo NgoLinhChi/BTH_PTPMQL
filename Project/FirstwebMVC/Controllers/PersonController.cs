@@ -6,7 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using System.IO;
 using FirstwebMVC.Models.Process;
 using OfficeOpenXml;
-
+using X.PagedList;
+using Microsoft.AspNetCore.Mvc.Rendering;
 namespace FirstwebMVC.Controllers;
 
 public class PersonController : Controller
@@ -16,6 +17,20 @@ public class PersonController : Controller
     public PersonController(ApplicationDbContext context)
     {
         _context = context;
+    }
+    public async Task<IActionResult> Index(int? page, int? PageSize)
+    {
+        ViewBag.PageSize = new List<SelectListItem>()
+        {
+            new SelectListItem() { Value = "3", Text = "3"},
+            new SelectListItem() { Value = "5", Text = "5"},
+            new SelectListItem() { Value = "7", Text = "7"},
+            new SelectListItem() { Value = "10", Text = "10"},
+        };
+        int pagesize = (PageSize ?? 3);
+        ViewBag.psize = pagesize;
+        var model = _context.Person.ToList().ToPagedList(page ?? 1, pagesize);
+        return View(model);
     }
     public async Task<IActionResult> Upload()
     {
@@ -73,11 +88,7 @@ public class PersonController : Controller
             return File(stream, "application/vnd.openxmlfomarts-officedocument.spreadsheetml.sheet", fileName);
         }
     }
-    public async Task<IActionResult> Index()
-    {
-        var model = await _context.Person.ToListAsync();
-        return View(model);
-    }
+
     public IActionResult Create()
     {
         return View();
